@@ -3,7 +3,7 @@ name: R2S-OpenWrt-Without-Docker
 on:
   push:
     paths:
-      - 'CHANGELOG.md'
+      - 'README.md'
 
 
 jobs:
