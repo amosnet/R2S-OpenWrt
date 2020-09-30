@@ -18,6 +18,7 @@ sed -i '/PREEMPT/d' ./target/linux/rockchip/config-default
 echo '
 CONFIG_PREEMPT_RT=y
 CONFIG_PREEMPTION=y
+CONFIG_DST_CACHE=y
 ' >> ./target/linux/rockchip/config-default
 }
 
